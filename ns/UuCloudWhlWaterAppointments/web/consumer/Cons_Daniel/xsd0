@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API">
+<xs:import schemaLocation="UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Core"/>
+<xs:complexType name="UserDto">
+<xs:sequence>
+<xs:element minOccurs="0" name="UserAccount" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="UserDto" nillable="true" type="tns:UserDto"/>
+<xs:complexType name="GetAvailableAppointmentsResult">
+<xs:sequence>
+<xs:element minOccurs="0" name="AppointmentList" nillable="true" type="tns:ArrayOfAppointment"/>
+<xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Core" minOccurs="0" name="Errors" nillable="true" type="q1:ManagerMethodErrors"/>
+<xs:element minOccurs="0" name="HasErrors" type="xs:string"/>
+<xs:element minOccurs="0" name="TaskId" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="GetAvailableAppointmentsResult" nillable="true" type="tns:GetAvailableAppointmentsResult"/>
+<xs:complexType name="ArrayOfAppointment">
+<xs:sequence>
+<xs:element minOccurs="0" maxOccurs="unbounded" name="Appointment" nillable="true" type="tns:Appointment"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="ArrayOfAppointment" nillable="true" type="tns:ArrayOfAppointment"/>
+<xs:complexType name="Appointment">
+<xs:sequence>
+<xs:element minOccurs="0" name="AppointmentType" nillable="true" type="tns:AppointmentType"/>
+<xs:element minOccurs="0" name="Date" type="xs:string"/>
+<xs:element minOccurs="0" name="Preferred" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="Appointment" nillable="true" type="tns:Appointment"/>
+<xs:complexType name="AppointmentType">
+<xs:sequence>
+<xs:element minOccurs="0" name="Caption" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="Duration" type="xs:string"/>
+<xs:element minOccurs="0" name="ID" type="xs:string"/>
+<xs:element minOccurs="0" name="StartTime" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="AppointmentType" nillable="true" type="tns:AppointmentType"/>
+<xs:complexType name="PlanAppointmentResult">
+<xs:sequence>
+<xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Core" minOccurs="0" name="Errors" nillable="true" type="q2:ManagerMethodErrors"/>
+<xs:element minOccurs="0" name="HasErrors" type="xs:string"/>
+<xs:element minOccurs="0" name="IsConfirmed" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="PlanAppointmentResult" nillable="true" type="tns:PlanAppointmentResult"/>
+<xs:complexType name="CancelAppointmentResult">
+<xs:sequence>
+<xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Core" minOccurs="0" name="Errors" nillable="true" type="q3:ManagerMethodErrors"/>
+<xs:element minOccurs="0" name="HasErrors" type="xs:boolean"/>
+<xs:element minOccurs="0" name="TaskId" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+<xs:element name="CancelAppointmentResult" nillable="true" type="tns:CancelAppointmentResult"/>
+</xs:schema>

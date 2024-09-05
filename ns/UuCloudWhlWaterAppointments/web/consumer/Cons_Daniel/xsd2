@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+<xs:import schemaLocation="UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?xsd=xsd0" namespace="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API"/>
+<xs:element name="GetAvailableAppointments">
+<xs:complexType>
+<xs:sequence>
+<xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" minOccurs="0" name="user" nillable="true" type="q1:UserDto"/>
+<xs:element minOccurs="0" name="taskId" type="xs:string"/>
+<xs:element minOccurs="0" name="startDate" type="xs:string"/>
+<xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="isFixedAppointment" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="GetAvailableAppointmentsResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" minOccurs="0" name="GetAvailableAppointmentsResult" nillable="true" type="q2:GetAvailableAppointmentsResult"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="PlanTask">
+<xs:complexType>
+<xs:sequence>
+<xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" minOccurs="0" name="user" nillable="true" type="q3:UserDto"/>
+<xs:element minOccurs="0" name="taskId" type="xs:string"/>
+<xs:element minOccurs="0" name="date" type="xs:string"/>
+<xs:element minOccurs="0" name="appointmentTypeID" type="xs:string"/>
+<xs:element minOccurs="0" name="comment" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="PlanTaskResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" minOccurs="0" name="PlanTaskResult" nillable="true" type="q4:PlanAppointmentResult"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="CancelAppointment">
+<xs:complexType>
+<xs:sequence>
+<xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" minOccurs="0" name="user" nillable="true" type="q5:UserDto"/>
+<xs:element minOccurs="0" name="taskId" type="xs:int"/>
+<xs:element minOccurs="0" name="abortCancelReasonId" type="xs:int"/>
+<xs:element minOccurs="0" name="comment" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="CancelAppointmentResponse">
+<xs:complexType>
+<xs:sequence>
+<xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Daniel.Neptune.Services.API" minOccurs="0" name="CancelAppointmentResult" nillable="true" type="q6:CancelAppointmentResult"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

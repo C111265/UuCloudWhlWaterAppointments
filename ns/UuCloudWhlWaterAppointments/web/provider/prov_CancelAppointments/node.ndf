@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webServiceDescriptor</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">UuCloudWhlWaterAppointments.web.provider:prov_CancelAppointments</value>
+  <value name="node_pkg">UuCloudWhlWaterAppointments</value>
+  <value name="node_comment"></value>
+  <value name="is_public">false</value>
+  <Boolean name="inbound">true</Boolean>
+  <Boolean name="WSICompliant">false</Boolean>
+  <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+  <value name="targetNamespace">http://luudsoia01/UU_WorkOrderAppts/WsDescs/Providers/prov_CancelAppointments</value>
+  <Boolean name="attachmentEnabled">false</Boolean>
+  <number name="mtomThreshold" type="Integer">0</number>
+  <null name="externalWSDL"/>
+  <null name="externalWSDLURL"/>
+  <value name="WSDLURL">http://ruudwmia91.uug.vcm.cc:5555/ws/uuWhlWaterAppointments.web.provider.V01:prov_CancelAppointments?WSDL</value>
+  <value name="definitionName">prov_CancelAppointments</value>
+  <value name="version">_9_8</value>
+  <null name="schemaDomain"/>
+  <Boolean name="rawArray">true</Boolean>
+  <array name="handlerList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">serviceHandler_provider_Appointment</value>
+      <value name="className">com.wm.app.b2b.server.jaxrpc.HandlerTemplate</value>
+    </record>
+  </array>
+  <array name="binderList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">UU_WorkOrderAppts_WsDescs_Providers_prov_CancelAppointments_Binder</value>
+      <value name="portAddress"></value>
+      <value name="portAlias">Uu_Esb_Http</value>
+      <value name="bindingName">UU_WorkOrderAppts_WsDescs_Providers_prov_CancelAppointments_Binder</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">UU_WorkOrderAppts_WsDescs_Providers_prov_CancelAppointments_Port</value>
+      <value name="portTypeName">prov_CancelAppointments_PortType</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">http</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="UU_WorkOrderAppts_WsDescs_Providers_prov_CancelAppointments_Binder_srv_CancelAppointment">srv_CancelAppointment</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+  </array>
+  <array name="operationList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">srv_CancelAppointment</value>
+      <value name="serviceName">UuCloudWhlWaterAppointments.services:srv_CancelAppointment</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">doc_AppointmentHeader</value>
+            <value name="docType">UuCloudWhlWaterAppointments.docs:doc_AppointmentsHeader</value>
+            <value name="nsOwner">UuCloudWhlWaterAppointments.docs:doc_AppointmentsHeader</value>
+            <number name="nsOwnerType" type="Integer">3</number>
+            <Boolean name="addedByClient">true</Boolean>
+            <value name="mustUnderstand">false</value>
+            <value name="role"></value>
+          </record>
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">srv_CancelAppointment</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.services:srv_CancelAppointment</value>
+          <number name="nsOwnerType" type="Integer">1</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">srv_CancelAppointmentResponse</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.services:srv_CancelAppointment</value>
+          <number name="nsOwnerType" type="Integer">2</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="name">SoapFaultDetails</value>
+            <value name="docType">uuCommonDocs.docs.V01:SoapFaultDetails</value>
+            <value name="nsOwner">uuCommonDocs.docs.V01:SoapFaultDetails</value>
+            <number name="nsOwnerType" type="Integer">3</number>
+            <Boolean name="addedByClient">true</Boolean>
+          </record>
+        </array>
+      </record>
+    </record>
+  </array>
+  <record name="namespaces" javaclass="com.wm.util.Values">
+    <value name="tns">http://ruudwmia04/uuWhlWaterAppointments.web.provider.V01:prov_CancelAppointments</value>
+    <value name="wsdl">http://schemas.xmlsoap.org/wsdl/</value>
+    <value name="xsd">http://www.w3.org/2001/XMLSchema</value>
+    <value name="http">http://schemas.xmlsoap.org/wsdl/http/</value>
+    <value name="mime">http://schemas.xmlsoap.org/wsdl/mime/</value>
+    <value name="soapenc">http://schemas.xmlsoap.org/soap/encoding/</value>
+    <value name="soap12">http://schemas.xmlsoap.org/wsdl/soap12/</value>
+    <value name="soap">http://schemas.xmlsoap.org/wsdl/soap/</value>
+    <value name="soapjms">http://www.w3.org/2010/soapjms/</value>
+  </record>
+  <Boolean name="HeadersInPipelineEnabled">true</Boolean>
+  <Boolean name="validateSOAPResponse">true</Boolean>
+  <Boolean name="validateSchemaUsingXerces">true</Boolean>
+  <Boolean name="enableCompatibility">false</Boolean>
+  <Boolean name="omitXSDAny">true</Boolean>
+  <Boolean name="registerDoctypes">false</Boolean>
+  <Boolean name="allTypes">false</Boolean>
+  <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
+  <null name="originURI"/>
+  <null name="modifiable"/>
+  <null name="policyAttachmentList"/>
+  <Boolean name="filterLoginCredentials">false</Boolean>
+  <value name="outboundCallbackServiceName"></value>
+</Values>

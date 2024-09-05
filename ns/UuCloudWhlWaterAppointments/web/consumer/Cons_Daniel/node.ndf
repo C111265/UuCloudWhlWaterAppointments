@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webServiceDescriptor</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">UuCloudWhlWaterAppointments.web.consumer:Cons_Daniel</value>
+  <value name="node_pkg">UuCloudWhlWaterAppointments</value>
+  <value name="node_comment"></value>
+  <value name="is_public">false</value>
+  <Boolean name="inbound">false</Boolean>
+  <Boolean name="WSICompliant">false</Boolean>
+  <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+  <value name="targetNamespace">http://tempuri.org/</value>
+  <Boolean name="attachmentEnabled">false</Boolean>
+  <number name="mtomThreshold" type="Integer">0</number>
+  <array name="externalWSDLSources" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?wsdl=wsdl0</value>
+      <byte name="source">
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHdzZGw6ZGVmaW5pdGlvbnMgeG1sbnM6d3NhPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA0LzA4L2FkZHJlc3NpbmciIHhtbG5zOndzYXc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDYvMDUvYWRkcmVzc2luZy93c2RsIiB4bWxuczp3c2ExMD0iaHR0cDovL3d3dy53My5vcmcvMjAwNS8wOC9hZGRyZXNzaW5nIiB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczpzb2FwMTI9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzZGwvc29hcDEyLyIgeG1sbnM6c29hcGVuYz0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbmNvZGluZy8iIHhtbG5zOndzZGw9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzZGwvIiB4bWxuczp3c3A9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDQvMDkvcG9saWN5IiB4bWxuczp0bnM9Imh0dHA6Ly90ZW1wdXJpLm9yZy8iIHhtbG5zOndzdT0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzLzIwMDQvMDEvb2FzaXMtMjAwNDAxLXdzcy13c3NlY3VyaXR5LXV0aWxpdHktMS4wLnhzZCIgeG1sbnM6bXNjPSJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDUvMTIvd3NkbC9jb250cmFjdCIgeG1sbnM6d3NhcD0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNC8wOC9hZGRyZXNzaW5nL3BvbGljeSIgeG1sbnM6d3N4PSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA0LzA5L21leCIgeG1sbnM6c29hcD0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3NkbC9zb2FwLyIgeG1sbnM6d3NhbT0iaHR0cDovL3d3dy53My5vcmcvMjAwNy8wNS9hZGRyZXNzaW5nL21ldGFkYXRhIiBuYW1lPSJBcHBvaW50bWVudFNlcnZpY2UiIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL3RlbXB1cmkub3JnLyI+CiAgPHdzZGw6dHlwZXM+CiAgICA8eHNkOnNjaGVtYSB0YXJnZXROYW1lc3BhY2U9Imh0dHA6Ly90ZW1wdXJpLm9yZy9JbXBvcnRzIj4KPHhzZDppbXBvcnQgbmFtZXNwYWNlPSJodHRwOi8vdGVtcHVyaS5vcmcvIiBzY2hlbWFMb2NhdGlvbj0iVXVDbG91ZFdobFdhdGVyQXBwb2ludG1lbnRzLndlYi5jb25zdW1lci5Db25zX0RhbmllbD94c2Q9eHNkMiIvPgo8eHNkOmltcG9ydCBuYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vMjAwMy8xMC9TZXJpYWxpemF0aW9uLyIgc2NoZW1hTG9jYXRpb249IlV1Q2xvdWRXaGxXYXRlckFwcG9pbnRtZW50cy53ZWIuY29uc3VtZXIuQ29uc19EYW5pZWw/eHNkPXhzZDMiLz4KPHhzZDppbXBvcnQgbmFtZXNwYWNlPSJodHRwOi8vc2NoZW1hcy5kYXRhY29udHJhY3Qub3JnLzIwMDQvMDcvRGFuaWVsLk5lcHR1bmUuU2VydmljZXMuQVBJIiBzY2hlbWFMb2NhdGlvbj0iVXVDbG91ZFdobFdhdGVyQXBwb2ludG1lbnRzLndlYi5jb25zdW1lci5Db25zX0RhbmllbD94c2Q9eHNkMCIvPgo8eHNkOmltcG9ydCBuYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5Db3JlIiBzY2hlbWFMb2NhdGlvbj0iVXVDbG91ZFdobFdhdGVyQXBwb2ludG1lbnRzLndlYi5jb25zdW1lci5Db25zX0RhbmllbD94c2Q9eHNkMSIvPgo8L3hzZDpzY2hlbWE+CiAgPC93c2RsOnR5cGVzPgogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iSUFwcG9pbnRtZW50U2VydmljZV9DYW5jZWxBcHBvaW50bWVudF9JbnB1dE1lc3NhZ2UiPgogICAgPHdzZGw6cGFydCBuYW1lPSJwYXJhbWV0ZXJzIiBlbGVtZW50PSJ0bnM6Q2FuY2VsQXBwb2ludG1lbnQiPgogICAgPC93c2RsOnBhcnQ+CiAgPC93c2RsOm1lc3NhZ2U+CiAgPHdzZGw6bWVzc2FnZSBuYW1lPSJJQXBwb2ludG1lbnRTZXJ2aWNlX0dldEF2YWlsYWJsZUFwcG9pbnRtZW50c19PdXRwdXRNZXNzYWdlIj4KICAgIDx3c2RsOnBhcnQgbmFtZT0icGFyYW1ldGVycyIgZWxlbWVudD0idG5zOkdldEF2YWlsYWJsZUFwcG9pbnRtZW50c1Jlc3BvbnNlIj4KICAgIDwvd3NkbDpwYXJ0PgogIDwvd3NkbDptZXNzYWdlPgogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iSUFwcG9pbnRtZW50U2VydmljZV9DYW5jZWxBcHBvaW50bWVudF9PdXRwdXRNZXNzYWdlIj4KICAgIDx3c2RsOnBhcnQgbmFtZT0icGFyYW1ldGVycyIgZWxlbWVudD0idG5zOkNhbmNlbEFwcG9pbnRtZW50UmVzcG9uc2UiPgogICAgPC93c2RsOnBhcnQ+CiAgPC93c2RsOm1lc3NhZ2U+CiAgPHdzZGw6bWVzc2FnZSBuYW1lPSJJQXBwb2ludG1lbnRTZXJ2aWNlX0dldEF2YWlsYWJsZUFwcG9pbnRtZW50c19JbnB1dE1lc3NhZ2UiPgogICAgPHdzZGw6cGFydCBuYW1lPSJwYXJhbWV0ZXJzIiBlbGVtZW50PSJ0bnM6R2V0QXZhaWxhYmxlQXBwb2ludG1lbnRzIj4KICAgIDwvd3NkbDpwYXJ0PgogIDwvd3NkbDptZXNzYWdlPgogIDx3c2RsOm1lc3NhZ2UgbmFtZT0iSUFwcG9pbnRtZW50U2VydmljZV9QbGFuVGFza19PdXRwdXRNZXNzYWdlIj4KICAgIDx3c2RsOnBhcnQgbmFtZT0icGFyYW1ldGVycyIgZWxlbWVudD0idG5zOlBsYW5UYXNrUmVzcG9uc2UiPgogICAgPC93c2RsOnBhcnQ+CiAgPC93c2RsOm1lc3NhZ2U+CiAgPHdzZGw6bWVzc2FnZSBuYW1lPSJJQXBwb2ludG1lbnRTZXJ2aWNlX1BsYW5UYXNrX0lucHV0TWVzc2FnZSI+CiAgICA8d3NkbDpwYXJ0IG5hbWU9InBhcmFtZXRlcnMiIGVsZW1lbnQ9InRuczpQbGFuVGFzayI+CiAgICA8L3dzZGw6cGFydD4KICA8L3dzZGw6bWVzc2FnZT4KICA8d3NkbDpwb3J0VHlwZSBuYW1lPSJJQXBwb2ludG1lbnRTZXJ2aWNlIj4KICAgIDx3c2RsOm9wZXJhdGlvbiBuYW1lPSJHZXRBdmFpbGFibGVBcHBvaW50bWVudHMiPgogICAgICA8d3NkbDppbnB1dCBtZXNzYWdlPSJ0bnM6SUFwcG9pbnRtZW50U2VydmljZV9HZXRBdmFpbGFibGVBcHBvaW50bWVudHNfSW5wdXRNZXNzYWdlIiB3c2F3OkFjdGlvbj0iaHR0cDovL3RlbXB1cmkub3JnL0lBcHBvaW50bWVudFNlcnZpY2UvR2V0QXZhaWxhYmxlQXBwb2ludG1lbnRzIj4KICAgIDwvd3NkbDppbnB1dD4KICAgICAgPHdzZGw6b3V0cHV0IG1lc3NhZ2U9InRuczpJQXBwb2ludG1lbnRTZXJ2aWNlX0dldEF2YWlsYWJsZUFwcG9pbnRtZW50c19PdXRwdXRNZXNzYWdlIiB3c2F3OkFjdGlvbj0iaHR0cDovL3RlbXB1cmkub3JnL0lBcHBvaW50bWVudFNlcnZpY2UvR2V0QXZhaWxhYmxlQXBwb2ludG1lbnRzUmVzcG9uc2UiPgogICAgPC93c2RsOm91dHB1dD4KICAgIDwvd3NkbDpvcGVyYXRpb24+CiAgICA8d3NkbDpvcGVyYXRpb24gbmFtZT0iUGxhblRhc2siPgogICAgICA8d3NkbDppbnB1dCBtZXNzYWdlPSJ0bnM6SUFwcG9pbnRtZW50U2VydmljZV9QbGFuVGFza19JbnB1dE1lc3NhZ2UiIHdzYXc6QWN0aW9uPSJodHRwOi8vdGVtcHVyaS5vcmcvSUFwcG9pbnRtZW50U2VydmljZS9QbGFuVGFzayI+CiAgICA8L3dzZGw6aW5wdXQ+CiAgICAgIDx3c2RsOm91dHB1dCBtZXNzYWdlPSJ0bnM6SUFwcG9pbnRtZW50U2VydmljZV9QbGFuVGFza19PdXRwdXRNZXNzYWdlIiB3c2F3OkFjdGlvbj0iaHR0cDovL3RlbXB1cmkub3JnL0lBcHBvaW50bWVudFNlcnZpY2UvUGxhblRhc2tSZXNwb25zZSI+CiAgICA8L3dzZGw6b3V0cHV0PgogICAgPC93c2RsOm9wZXJhdGlvbj4KICAgIDx3c2RsOm9wZXJhdGlvbiBuYW1lPSJDYW5jZWxBcHBvaW50bWVudCI+CiAgICAgIDx3c2RsOmlucHV0IG1lc3NhZ2U9InRuczpJQXBwb2ludG1lbnRTZXJ2aWNlX0NhbmNlbEFwcG9pbnRtZW50X0lucHV0TWVzc2FnZSIgd3NhdzpBY3Rpb249Imh0dHA6Ly90ZW1wdXJpLm9yZy9JQXBwb2ludG1lbnRTZXJ2aWNlL0NhbmNlbEFwcG9pbnRtZW50Ij4KICAgIDwvd3NkbDppbnB1dD4KICAgICAgPHdzZGw6b3V0cHV0IG1lc3NhZ2U9InRuczpJQXBwb2ludG1lbnRTZXJ2aWNlX0NhbmNlbEFwcG9pbnRtZW50X091dHB1dE1lc3NhZ2UiIHdzYXc6QWN0aW9uPSJodHRwOi8vdGVtcHVyaS5vcmcvSUFwcG9pbnRtZW50U2VydmljZS9DYW5jZWxBcHBvaW50bWVudFJlc3BvbnNlIj4KICAgIDwvd3NkbDpvdXRwdXQ+CiAgICA8L3dzZGw6b3BlcmF0aW9uPgogIDwvd3NkbDpwb3J0VHlwZT4KICA8d3NkbDpiaW5kaW5nIG5hbWU9IkFwcG9pbnRtZW50U2VydmljZSIgdHlwZT0idG5zOklBcHBvaW50bWVudFNlcnZpY2UiPgogICAgPHdzcDpQb2xpY3lSZWZlcmVuY2UgVVJJPSIjQXBwb2ludG1lbnRTZXJ2aWNlX3BvbGljeSIvPgogICAgPHNvYXA6YmluZGluZyB0cmFuc3BvcnQ9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvaHR0cCIvPgogICAgPHdzZGw6b3BlcmF0aW9uIG5hbWU9IkdldEF2YWlsYWJsZUFwcG9pbnRtZW50cyI+CiAgICAgIDxzb2FwOm9wZXJhdGlvbiBzb2FwQWN0aW9uPSJodHRwOi8vdGVtcHVyaS5vcmcvSUFwcG9pbnRtZW50U2VydmljZS9HZXRBdmFpbGFibGVBcHBvaW50bWVudHMiIHN0eWxlPSJkb2N1bWVudCIvPgogICAgICA8d3NkbDppbnB1dD4KICAgICAgICA8c29hcDpib2R5IHVzZT0ibGl0ZXJhbCIvPgogICAgICA8L3dzZGw6aW5wdXQ+CiAgICAgIDx3c2RsOm91dHB1dD4KICAgICAgICA8c29hcDpib2R5IHVzZT0ibGl0ZXJhbCIvPgogICAgICA8L3dzZGw6b3V0cHV0PgogICAgPC93c2RsOm9wZXJhdGlvbj4KICAgIDx3c2RsOm9wZXJhdGlvbiBuYW1lPSJQbGFuVGFzayI+CiAgICAgIDxzb2FwOm9wZXJhdGlvbiBzb2FwQWN0aW9uPSJodHRwOi8vdGVtcHVyaS5vcmcvSUFwcG9pbnRtZW50U2VydmljZS9QbGFuVGFzayIgc3R5bGU9ImRvY3VtZW50Ii8+CiAgICAgIDx3c2RsOmlucHV0PgogICAgICAgIDxzb2FwOmJvZHkgdXNlPSJsaXRlcmFsIi8+CiAgICAgIDwvd3NkbDppbnB1dD4KICAgICAgPHdzZGw6b3V0cHV0PgogICAgICAgIDxzb2FwOmJvZHkgdXNlPSJsaXRlcmFsIi8+CiAgICAgIDwvd3NkbDpvdXRwdXQ+CiAgICA8L3dzZGw6b3BlcmF0aW9uPgogICAgPHdzZGw6b3BlcmF0aW9uIG5hbWU9IkNhbmNlbEFwcG9pbnRtZW50Ij4KICAgICAgPHNvYXA6b3BlcmF0aW9uIHNvYXBBY3Rpb249Imh0dHA6Ly90ZW1wdXJpLm9yZy9JQXBwb2ludG1lbnRTZXJ2aWNlL0NhbmNlbEFwcG9pbnRtZW50IiBzdHlsZT0iZG9jdW1lbnQiLz4KICAgICAgPHdzZGw6aW5wdXQ+CiAgICAgICAgPHNvYXA6Ym9keSB1c2U9ImxpdGVyYWwiLz4KICAgICAgPC93c2RsOmlucHV0PgogICAgICA8d3NkbDpvdXRwdXQ+CiAgICAgICAgPHNvYXA6Ym9keSB1c2U9ImxpdGVyYWwiLz4KICAgICAgPC93c2RsOm91dHB1dD4KICAgIDwvd3NkbDpvcGVyYXRpb24+CiAgPC93c2RsOmJpbmRpbmc+CiAgPHdzZGw6c2VydmljZSBuYW1lPSJBcHBvaW50bWVudFNlcnZpY2UiPgogICAgPHdzZGw6cG9ydCBuYW1lPSJBcHBvaW50bWVudFNlcnZpY2UiIGJpbmRpbmc9InRuczpBcHBvaW50bWVudFNlcnZpY2UiPgogICAgICA8c29hcDphZGRyZXNzIGxvY2F0aW9uPSJodHRwczovL25lcHR1bmUtdGVzdC5kYW5pZWwtdWsuY29tL0FwcG9pbnRtZW50cy9BcHBvaW50bWVudFNlcnZpY2Uuc3ZjL0FwcG9pbnRtZW50cy9BcHBvaW50bWVudFNlcnZpY2Uuc3ZjIi8+CiAgICA8L3dzZGw6cG9ydD4KICA8L3dzZGw6c2VydmljZT4KICAgIDx3c3A6UG9saWN5IHdzdTpJZD0iQXBwb2ludG1lbnRTZXJ2aWNlX3BvbGljeSI+Cjx3c3A6RXhhY3RseU9uZT4KPHdzcDpBbGw+CjxzcDpUcmFuc3BvcnRCaW5kaW5nIHhtbG5zOnNwPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA3L3NlY3VyaXR5cG9saWN5Ij4KPHdzcDpQb2xpY3k+CjxzcDpUcmFuc3BvcnRUb2tlbj4KPHdzcDpQb2xpY3k+CjxzcDpIdHRwc1Rva2VuIFJlcXVpcmVDbGllbnRDZXJ0aWZpY2F0ZT0iZmFsc2UiLz4KPC93c3A6UG9saWN5Pgo8L3NwOlRyYW5zcG9ydFRva2VuPgo8c3A6QWxnb3JpdGhtU3VpdGU+Cjx3c3A6UG9saWN5Pgo8c3A6QmFzaWMyNTYvPgo8L3dzcDpQb2xpY3k+Cjwvc3A6QWxnb3JpdGhtU3VpdGU+CjxzcDpMYXlvdXQ+Cjx3c3A6UG9saWN5Pgo8c3A6U3RyaWN0Lz4KPC93c3A6UG9saWN5Pgo8L3NwOkxheW91dD4KPC93c3A6UG9saWN5Pgo8L3NwOlRyYW5zcG9ydEJpbmRpbmc+Cjwvd3NwOkFsbD4KPC93c3A6RXhhY3RseU9uZT4KPC93c3A6UG9saWN5Pgo8L3dzZGw6ZGVmaW5pdGlvbnM+Cg==      </byte>
+      <number name="type" type="Integer">1</number>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?xsd=xsd0</value>
+      <byte name="source">
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjx4czpzY2hlbWEgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp0bnM9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5TZXJ2aWNlcy5BUEkiIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiB0YXJnZXROYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5TZXJ2aWNlcy5BUEkiPg0KPHhzOmltcG9ydCBzY2hlbWFMb2NhdGlvbj0iVXVDbG91ZFdobFdhdGVyQXBwb2ludG1lbnRzLndlYi5jb25zdW1lci5Db25zX0RhbmllbD94c2Q9eHNkMSIgbmFtZXNwYWNlPSJodHRwOi8vc2NoZW1hcy5kYXRhY29udHJhY3Qub3JnLzIwMDQvMDcvRGFuaWVsLk5lcHR1bmUuQ29yZSIvPg0KPHhzOmNvbXBsZXhUeXBlIG5hbWU9IlVzZXJEdG8iPg0KPHhzOnNlcXVlbmNlPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJVc2VyQWNjb3VudCIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnN0cmluZyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJVc2VyTmFtZSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnN0cmluZyIvPg0KPC94czpzZXF1ZW5jZT4NCjwveHM6Y29tcGxleFR5cGU+DQo8eHM6ZWxlbWVudCBuYW1lPSJVc2VyRHRvIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOlVzZXJEdG8iLz4NCjx4czpjb21wbGV4VHlwZSBuYW1lPSJHZXRBdmFpbGFibGVBcHBvaW50bWVudHNSZXN1bHQiPg0KPHhzOnNlcXVlbmNlPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJBcHBvaW50bWVudExpc3QiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6QXJyYXlPZkFwcG9pbnRtZW50Ii8+DQo8eHM6ZWxlbWVudCB4bWxuczpxMT0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L0RhbmllbC5OZXB0dW5lLkNvcmUiIG1pbk9jY3Vycz0iMCIgbmFtZT0iRXJyb3JzIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0icTE6TWFuYWdlck1ldGhvZEVycm9ycyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJIYXNFcnJvcnMiIHR5cGU9InhzOnN0cmluZyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJUYXNrSWQiIHR5cGU9InhzOnN0cmluZyIvPg0KPC94czpzZXF1ZW5jZT4NCjwveHM6Y29tcGxleFR5cGU+DQo8eHM6ZWxlbWVudCBuYW1lPSJHZXRBdmFpbGFibGVBcHBvaW50bWVudHNSZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6R2V0QXZhaWxhYmxlQXBwb2ludG1lbnRzUmVzdWx0Ii8+DQo8eHM6Y29tcGxleFR5cGUgbmFtZT0iQXJyYXlPZkFwcG9pbnRtZW50Ij4NCjx4czpzZXF1ZW5jZT4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiIG5hbWU9IkFwcG9pbnRtZW50IiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOkFwcG9pbnRtZW50Ii8+DQo8L3hzOnNlcXVlbmNlPg0KPC94czpjb21wbGV4VHlwZT4NCjx4czplbGVtZW50IG5hbWU9IkFycmF5T2ZBcHBvaW50bWVudCIgbmlsbGFibGU9InRydWUiIHR5cGU9InRuczpBcnJheU9mQXBwb2ludG1lbnQiLz4NCjx4czpjb21wbGV4VHlwZSBuYW1lPSJBcHBvaW50bWVudCI+DQo8eHM6c2VxdWVuY2U+DQo8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9IkFwcG9pbnRtZW50VHlwZSIgbmlsbGFibGU9InRydWUiIHR5cGU9InRuczpBcHBvaW50bWVudFR5cGUiLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iRGF0ZSIgdHlwZT0ieHM6c3RyaW5nIi8+DQo8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9IlByZWZlcnJlZCIgdHlwZT0ieHM6c3RyaW5nIi8+DQo8L3hzOnNlcXVlbmNlPg0KPC94czpjb21wbGV4VHlwZT4NCjx4czplbGVtZW50IG5hbWU9IkFwcG9pbnRtZW50IiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOkFwcG9pbnRtZW50Ii8+DQo8eHM6Y29tcGxleFR5cGUgbmFtZT0iQXBwb2ludG1lbnRUeXBlIj4NCjx4czpzZXF1ZW5jZT4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iQ2FwdGlvbiIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnN0cmluZyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJEZXNjcmlwdGlvbiIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnN0cmluZyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJEdXJhdGlvbiIgdHlwZT0ieHM6c3RyaW5nIi8+DQo8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9IklEIiB0eXBlPSJ4czpzdHJpbmciLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iU3RhcnRUaW1lIiB0eXBlPSJ4czpzdHJpbmciLz4NCjwveHM6c2VxdWVuY2U+DQo8L3hzOmNvbXBsZXhUeXBlPg0KPHhzOmVsZW1lbnQgbmFtZT0iQXBwb2ludG1lbnRUeXBlIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOkFwcG9pbnRtZW50VHlwZSIvPg0KPHhzOmNvbXBsZXhUeXBlIG5hbWU9IlBsYW5BcHBvaW50bWVudFJlc3VsdCI+DQo8eHM6c2VxdWVuY2U+DQo8eHM6ZWxlbWVudCB4bWxuczpxMj0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L0RhbmllbC5OZXB0dW5lLkNvcmUiIG1pbk9jY3Vycz0iMCIgbmFtZT0iRXJyb3JzIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0icTI6TWFuYWdlck1ldGhvZEVycm9ycyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJIYXNFcnJvcnMiIHR5cGU9InhzOnN0cmluZyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJJc0NvbmZpcm1lZCIgdHlwZT0ieHM6c3RyaW5nIi8+DQo8L3hzOnNlcXVlbmNlPg0KPC94czpjb21wbGV4VHlwZT4NCjx4czplbGVtZW50IG5hbWU9IlBsYW5BcHBvaW50bWVudFJlc3VsdCIgbmlsbGFibGU9InRydWUiIHR5cGU9InRuczpQbGFuQXBwb2ludG1lbnRSZXN1bHQiLz4NCjx4czpjb21wbGV4VHlwZSBuYW1lPSJDYW5jZWxBcHBvaW50bWVudFJlc3VsdCI+DQo8eHM6c2VxdWVuY2U+DQo8eHM6ZWxlbWVudCB4bWxuczpxMz0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L0RhbmllbC5OZXB0dW5lLkNvcmUiIG1pbk9jY3Vycz0iMCIgbmFtZT0iRXJyb3JzIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0icTM6TWFuYWdlck1ldGhvZEVycm9ycyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJIYXNFcnJvcnMiIHR5cGU9InhzOmJvb2xlYW4iLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iVGFza0lkIiB0eXBlPSJ4czppbnQiLz4NCjwveHM6c2VxdWVuY2U+DQo8L3hzOmNvbXBsZXhUeXBlPg0KPHhzOmVsZW1lbnQgbmFtZT0iQ2FuY2VsQXBwb2ludG1lbnRSZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6Q2FuY2VsQXBwb2ludG1lbnRSZXN1bHQiLz4NCjwveHM6c2NoZW1hPg==      </byte>
+      <number name="type" type="Integer">2</number>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?xsd=xsd1</value>
+      <byte name="source">
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48eHM6c2NoZW1hIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiB0YXJnZXROYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5Db3JlIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnRucz0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L0RhbmllbC5OZXB0dW5lLkNvcmUiPjx4czpjb21wbGV4VHlwZSBuYW1lPSJNYW5hZ2VyTWV0aG9kRXJyb3JzIj48eHM6c2VxdWVuY2U+PHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJJc0VtcHR5IiB0eXBlPSJ4czpzdHJpbmciLz48eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9Ikxpc3QiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6QXJyYXlPZkVycm9yIi8+PC94czpzZXF1ZW5jZT48L3hzOmNvbXBsZXhUeXBlPjx4czplbGVtZW50IG5hbWU9Ik1hbmFnZXJNZXRob2RFcnJvcnMiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6TWFuYWdlck1ldGhvZEVycm9ycyIvPjx4czpjb21wbGV4VHlwZSBuYW1lPSJBcnJheU9mRXJyb3IiPjx4czpzZXF1ZW5jZT48eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIiBuYW1lPSJFcnJvciIgbmlsbGFibGU9InRydWUiIHR5cGU9InRuczpFcnJvciIvPjwveHM6c2VxdWVuY2U+PC94czpjb21wbGV4VHlwZT48eHM6ZWxlbWVudCBuYW1lPSJBcnJheU9mRXJyb3IiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6QXJyYXlPZkVycm9yIi8+PHhzOmNvbXBsZXhUeXBlIG5hbWU9IkVycm9yIj48eHM6c2VxdWVuY2U+PHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJDb2RlIiB0eXBlPSJ4czpzdHJpbmciLz48eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9Ik1lc3NhZ2UiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpzdHJpbmciLz48L3hzOnNlcXVlbmNlPjwveHM6Y29tcGxleFR5cGU+PHhzOmVsZW1lbnQgbmFtZT0iRXJyb3IiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ0bnM6RXJyb3IiLz48L3hzOnNjaGVtYT4=      </byte>
+      <number name="type" type="Integer">2</number>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?xsd=xsd2</value>
+      <byte name="source">
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjx4czpzY2hlbWEgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp0bnM9Imh0dHA6Ly90ZW1wdXJpLm9yZy8iIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiB0YXJnZXROYW1lc3BhY2U9Imh0dHA6Ly90ZW1wdXJpLm9yZy8iPg0KPHhzOmltcG9ydCBzY2hlbWFMb2NhdGlvbj0iVXVDbG91ZFdobFdhdGVyQXBwb2ludG1lbnRzLndlYi5jb25zdW1lci5Db25zX0RhbmllbD94c2Q9eHNkMCIgbmFtZXNwYWNlPSJodHRwOi8vc2NoZW1hcy5kYXRhY29udHJhY3Qub3JnLzIwMDQvMDcvRGFuaWVsLk5lcHR1bmUuU2VydmljZXMuQVBJIi8+DQo8eHM6ZWxlbWVudCBuYW1lPSJHZXRBdmFpbGFibGVBcHBvaW50bWVudHMiPg0KPHhzOmNvbXBsZXhUeXBlPg0KPHhzOnNlcXVlbmNlPg0KPHhzOmVsZW1lbnQgeG1sbnM6cTE9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5TZXJ2aWNlcy5BUEkiIG1pbk9jY3Vycz0iMCIgbmFtZT0idXNlciIgbmlsbGFibGU9InRydWUiIHR5cGU9InExOlVzZXJEdG8iLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0idGFza0lkIiB0eXBlPSJ4czpzdHJpbmciLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0ic3RhcnREYXRlIiB0eXBlPSJ4czpzdHJpbmciLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iZW5kRGF0ZSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnN0cmluZyIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJpc0ZpeGVkQXBwb2ludG1lbnQiIHR5cGU9InhzOnN0cmluZyIvPg0KPC94czpzZXF1ZW5jZT4NCjwveHM6Y29tcGxleFR5cGU+DQo8L3hzOmVsZW1lbnQ+DQo8eHM6ZWxlbWVudCBuYW1lPSJHZXRBdmFpbGFibGVBcHBvaW50bWVudHNSZXNwb25zZSI+DQo8eHM6Y29tcGxleFR5cGU+DQo8eHM6c2VxdWVuY2U+DQo8eHM6ZWxlbWVudCB4bWxuczpxMj0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L0RhbmllbC5OZXB0dW5lLlNlcnZpY2VzLkFQSSIgbWluT2NjdXJzPSIwIiBuYW1lPSJHZXRBdmFpbGFibGVBcHBvaW50bWVudHNSZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJxMjpHZXRBdmFpbGFibGVBcHBvaW50bWVudHNSZXN1bHQiLz4NCjwveHM6c2VxdWVuY2U+DQo8L3hzOmNvbXBsZXhUeXBlPg0KPC94czplbGVtZW50Pg0KPHhzOmVsZW1lbnQgbmFtZT0iUGxhblRhc2siPg0KPHhzOmNvbXBsZXhUeXBlPg0KPHhzOnNlcXVlbmNlPg0KPHhzOmVsZW1lbnQgeG1sbnM6cTM9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5TZXJ2aWNlcy5BUEkiIG1pbk9jY3Vycz0iMCIgbmFtZT0idXNlciIgbmlsbGFibGU9InRydWUiIHR5cGU9InEzOlVzZXJEdG8iLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0idGFza0lkIiB0eXBlPSJ4czpzdHJpbmciLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iZGF0ZSIgdHlwZT0ieHM6c3RyaW5nIi8+DQo8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9ImFwcG9pbnRtZW50VHlwZUlEIiB0eXBlPSJ4czpzdHJpbmciLz4NCjx4czplbGVtZW50IG1pbk9jY3Vycz0iMCIgbmFtZT0iY29tbWVudCIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnN0cmluZyIvPg0KPC94czpzZXF1ZW5jZT4NCjwveHM6Y29tcGxleFR5cGU+DQo8L3hzOmVsZW1lbnQ+DQo8eHM6ZWxlbWVudCBuYW1lPSJQbGFuVGFza1Jlc3BvbnNlIj4NCjx4czpjb21wbGV4VHlwZT4NCjx4czpzZXF1ZW5jZT4NCjx4czplbGVtZW50IHhtbG5zOnE0PSJodHRwOi8vc2NoZW1hcy5kYXRhY29udHJhY3Qub3JnLzIwMDQvMDcvRGFuaWVsLk5lcHR1bmUuU2VydmljZXMuQVBJIiBtaW5PY2N1cnM9IjAiIG5hbWU9IlBsYW5UYXNrUmVzdWx0IiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0icTQ6UGxhbkFwcG9pbnRtZW50UmVzdWx0Ii8+DQo8L3hzOnNlcXVlbmNlPg0KPC94czpjb21wbGV4VHlwZT4NCjwveHM6ZWxlbWVudD4NCjx4czplbGVtZW50IG5hbWU9IkNhbmNlbEFwcG9pbnRtZW50Ij4NCjx4czpjb21wbGV4VHlwZT4NCjx4czpzZXF1ZW5jZT4NCjx4czplbGVtZW50IHhtbG5zOnE1PSJodHRwOi8vc2NoZW1hcy5kYXRhY29udHJhY3Qub3JnLzIwMDQvMDcvRGFuaWVsLk5lcHR1bmUuU2VydmljZXMuQVBJIiBtaW5PY2N1cnM9IjAiIG5hbWU9InVzZXIiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJxNTpVc2VyRHRvIi8+DQo8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9InRhc2tJZCIgdHlwZT0ieHM6aW50Ii8+DQo8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG5hbWU9ImFib3J0Q2FuY2VsUmVhc29uSWQiIHR5cGU9InhzOmludCIvPg0KPHhzOmVsZW1lbnQgbWluT2NjdXJzPSIwIiBuYW1lPSJjb21tZW50IiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0ieHM6c3RyaW5nIi8+DQo8L3hzOnNlcXVlbmNlPg0KPC94czpjb21wbGV4VHlwZT4NCjwveHM6ZWxlbWVudD4NCjx4czplbGVtZW50IG5hbWU9IkNhbmNlbEFwcG9pbnRtZW50UmVzcG9uc2UiPg0KPHhzOmNvbXBsZXhUeXBlPg0KPHhzOnNlcXVlbmNlPg0KPHhzOmVsZW1lbnQgeG1sbnM6cTY9Imh0dHA6Ly9zY2hlbWFzLmRhdGFjb250cmFjdC5vcmcvMjAwNC8wNy9EYW5pZWwuTmVwdHVuZS5TZXJ2aWNlcy5BUEkiIG1pbk9jY3Vycz0iMCIgbmFtZT0iQ2FuY2VsQXBwb2ludG1lbnRSZXN1bHQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJxNjpDYW5jZWxBcHBvaW50bWVudFJlc3VsdCIvPg0KPC94czpzZXF1ZW5jZT4NCjwveHM6Y29tcGxleFR5cGU+DQo8L3hzOmVsZW1lbnQ+DQo8L3hzOnNjaGVtYT4=      </byte>
+      <number name="type" type="Integer">2</number>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel?xsd=xsd3</value>
+      <byte name="source">
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48eHM6c2NoZW1hIGF0dHJpYnV0ZUZvcm1EZWZhdWx0PSJxdWFsaWZpZWQiIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiB0YXJnZXROYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vMjAwMy8xMC9TZXJpYWxpemF0aW9uLyIgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp0bnM9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vMjAwMy8xMC9TZXJpYWxpemF0aW9uLyI+PHhzOmVsZW1lbnQgbmFtZT0iYW55VHlwZSIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOmFueVR5cGUiLz48eHM6ZWxlbWVudCBuYW1lPSJhbnlVUkkiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czphbnlVUkkiLz48eHM6ZWxlbWVudCBuYW1lPSJiYXNlNjRCaW5hcnkiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpiYXNlNjRCaW5hcnkiLz48eHM6ZWxlbWVudCBuYW1lPSJib29sZWFuIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0ieHM6Ym9vbGVhbiIvPjx4czplbGVtZW50IG5hbWU9ImJ5dGUiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpieXRlIi8+PHhzOmVsZW1lbnQgbmFtZT0iZGF0ZVRpbWUiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpkYXRlVGltZSIvPjx4czplbGVtZW50IG5hbWU9ImRlY2ltYWwiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpkZWNpbWFsIi8+PHhzOmVsZW1lbnQgbmFtZT0iZG91YmxlIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0ieHM6ZG91YmxlIi8+PHhzOmVsZW1lbnQgbmFtZT0iZmxvYXQiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpmbG9hdCIvPjx4czplbGVtZW50IG5hbWU9ImludCIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOmludCIvPjx4czplbGVtZW50IG5hbWU9ImxvbmciIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpsb25nIi8+PHhzOmVsZW1lbnQgbmFtZT0iUU5hbWUiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpRTmFtZSIvPjx4czplbGVtZW50IG5hbWU9InNob3J0IiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0ieHM6c2hvcnQiLz48eHM6ZWxlbWVudCBuYW1lPSJzdHJpbmciIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czpzdHJpbmciLz48eHM6ZWxlbWVudCBuYW1lPSJ1bnNpZ25lZEJ5dGUiIG5pbGxhYmxlPSJ0cnVlIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiLz48eHM6ZWxlbWVudCBuYW1lPSJ1bnNpZ25lZEludCIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnVuc2lnbmVkSW50Ii8+PHhzOmVsZW1lbnQgbmFtZT0idW5zaWduZWRMb25nIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0ieHM6dW5zaWduZWRMb25nIi8+PHhzOmVsZW1lbnQgbmFtZT0idW5zaWduZWRTaG9ydCIgbmlsbGFibGU9InRydWUiIHR5cGU9InhzOnVuc2lnbmVkU2hvcnQiLz48eHM6ZWxlbWVudCBuYW1lPSJjaGFyIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOmNoYXIiLz48eHM6c2ltcGxlVHlwZSBuYW1lPSJjaGFyIj48eHM6cmVzdHJpY3Rpb24gYmFzZT0ieHM6aW50Ii8+PC94czpzaW1wbGVUeXBlPjx4czplbGVtZW50IG5hbWU9ImR1cmF0aW9uIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOmR1cmF0aW9uIi8+PHhzOnNpbXBsZVR5cGUgbmFtZT0iZHVyYXRpb24iPjx4czpyZXN0cmljdGlvbiBiYXNlPSJ4czpkdXJhdGlvbiI+PHhzOnBhdHRlcm4gdmFsdWU9IlwtP1AoXGQqRCk/KFQoXGQqSCk/KFxkKk0pPyhcZCooXC5cZCopP1MpPyk/Ii8+PHhzOm1pbkluY2x1c2l2ZSB2YWx1ZT0iLVAxMDY3NTE5OURUMkg0OE01LjQ3NzU4MDhTIi8+PHhzOm1heEluY2x1c2l2ZSB2YWx1ZT0iUDEwNjc1MTk5RFQySDQ4TTUuNDc3NTgwN1MiLz48L3hzOnJlc3RyaWN0aW9uPjwveHM6c2ltcGxlVHlwZT48eHM6ZWxlbWVudCBuYW1lPSJndWlkIiBuaWxsYWJsZT0idHJ1ZSIgdHlwZT0idG5zOmd1aWQiLz48eHM6c2ltcGxlVHlwZSBuYW1lPSJndWlkIj48eHM6cmVzdHJpY3Rpb24gYmFzZT0ieHM6c3RyaW5nIj48eHM6cGF0dGVybiB2YWx1ZT0iW1xkYS1mQS1GXXs4fS1bXGRhLWZBLUZdezR9LVtcZGEtZkEtRl17NH0tW1xkYS1mQS1GXXs0fS1bXGRhLWZBLUZdezEyfSIvPjwveHM6cmVzdHJpY3Rpb24+PC94czpzaW1wbGVUeXBlPjx4czphdHRyaWJ1dGUgbmFtZT0iRmFjdG9yeVR5cGUiIHR5cGU9InhzOlFOYW1lIi8+PHhzOmF0dHJpYnV0ZSBuYW1lPSJJZCIgdHlwZT0ieHM6SUQiLz48eHM6YXR0cmlidXRlIG5hbWU9IlJlZiIgdHlwZT0ieHM6SURSRUYiLz48L3hzOnNjaGVtYT4=      </byte>
+      <number name="type" type="Integer">2</number>
+    </record>
+  </array>
+  <value name="externalWSDLURL">http://ruudwmia04:4001/ws/uuWhlWaterMetering.web.consumer.V01:Cons_Daniel?WSDL</value>
+  <value name="WSDLURL">http://ruudwmia91.uug.vcm.cc:5555/ws/uuWhlWaterAppointments.web.consumer.V01:Cons_Daniel?WSDL</value>
+  <value name="definitionName">Cons_Daniel</value>
+  <value name="version">_9_8</value>
+  <value name="schemaDomain">15f5a2e65d3a7426155cca37262</value>
+  <Boolean name="rawArray">true</Boolean>
+  <array name="handlerList" type="record" depth="1">
+  </array>
+  <array name="binderList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">AppointmentService</value>
+      <value name="portAddress">https://neptune-test.daniel-uk.com/Appointments/AppointmentService.svc/Appointments/AppointmentService.svc</value>
+      <value name="portAlias"></value>
+      <value name="bindingName">AppointmentService</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">AppointmentService</value>
+      <value name="portTypeName">IAppointmentService</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">https</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="http://tempuri.org/IAppointmentService/GetAvailableAppointments">GetAvailableAppointments</value>
+        <value name="http://tempuri.org/IAppointmentService/CancelAppointment">CancelAppointment</value>
+        <value name="http://tempuri.org/IAppointmentService/PlanTask">PlanTask</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+  </array>
+  <array name="operationList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">GetAvailableAppointments</value>
+      <value name="serviceName">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.connectors:IAppointmentService_GetAvailableAppointments</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://tempuri.org/:IAppointmentService_GetAvailableAppointments_Input</value>
+          <value name="docType">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_GetAvailableAppointments_Input</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_GetAvailableAppointments_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="action">http://tempuri.org/IAppointmentService/GetAvailableAppointments</value>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://tempuri.org/:IAppointmentService_GetAvailableAppointments_Output</value>
+          <value name="docType">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_GetAvailableAppointments_Output</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_GetAvailableAppointments_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="action">http://tempuri.org/IAppointmentService/GetAvailableAppointmentsResponse</value>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">PlanTask</value>
+      <value name="serviceName">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.connectors:IAppointmentService_PlanTask</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://tempuri.org/:IAppointmentService_PlanTask_Input</value>
+          <value name="docType">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_PlanTask_Input</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_PlanTask_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="action">http://tempuri.org/IAppointmentService/PlanTask</value>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://tempuri.org/:IAppointmentService_PlanTask_Output</value>
+          <value name="docType">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_PlanTask_Output</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_PlanTask_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="action">http://tempuri.org/IAppointmentService/PlanTaskResponse</value>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">CancelAppointment</value>
+      <value name="serviceName">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.connectors:IAppointmentService_CancelAppointment</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://tempuri.org/:IAppointmentService_CancelAppointment_Input</value>
+          <value name="docType">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_CancelAppointment_Input</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_CancelAppointment_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="action">http://tempuri.org/IAppointmentService/CancelAppointment</value>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://tempuri.org/:IAppointmentService_CancelAppointment_Output</value>
+          <value name="docType">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_CancelAppointment_Output</value>
+          <value name="nsOwner">UuCloudWhlWaterAppointments.web.consumer.Cons_Daniel_.docTypes:IAppointmentService_CancelAppointment_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="action">http://tempuri.org/IAppointmentService/CancelAppointmentResponse</value>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+  </array>
+  <record name="namespaces" javaclass="com.wm.util.Values">
+    <value name="wsa">http://schemas.xmlsoap.org/ws/2004/08/addressing</value>
+    <value name="wsaw">http://www.w3.org/2006/05/addressing/wsdl</value>
+    <value name="wsa10">http://www.w3.org/2005/08/addressing</value>
+    <value name="xsd">http://www.w3.org/2001/XMLSchema</value>
+    <value name="soap12">http://schemas.xmlsoap.org/wsdl/soap12/</value>
+    <value name="soapenc">http://schemas.xmlsoap.org/soap/encoding/</value>
+    <value name="wsdl">http://schemas.xmlsoap.org/wsdl/</value>
+    <value name="wsp">http://schemas.xmlsoap.org/ws/2004/09/policy</value>
+    <value name="tns">http://tempuri.org/</value>
+    <value name="wsu">http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd</value>
+    <value name="msc">http://schemas.microsoft.com/ws/2005/12/wsdl/contract</value>
+    <value name="wsap">http://schemas.xmlsoap.org/ws/2004/08/addressing/policy</value>
+    <value name="wsx">http://schemas.xmlsoap.org/ws/2004/09/mex</value>
+    <value name="soap">http://schemas.xmlsoap.org/wsdl/soap/</value>
+    <value name="wsam">http://www.w3.org/2007/05/addressing/metadata</value>
+  </record>
+  <Boolean name="HeadersInPipelineEnabled">false</Boolean>
+  <Boolean name="validateSOAPResponse">true</Boolean>
+  <Boolean name="validateSchemaUsingXerces">true</Boolean>
+  <Boolean name="enableCompatibility">false</Boolean>
+  <Boolean name="omitXSDAny">true</Boolean>
+  <record name="userDefinedURIReferencePrefixes" javaclass="com.wm.util.Values">
+  </record>
+  <Boolean name="registerDoctypes">true</Boolean>
+  <Boolean name="allTypes">false</Boolean>
+  <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
+  <value name="originURI">http://ruudwmia04:4001/ws/uuWhlWaterMetering.web.consumer.V01:Cons_Daniel?WSDL</value>
+  <value name="modifiable">false</value>
+  <value name="externalServiceName">{http://tempuri.org/}AppointmentService</value>
+  <null name="policyAttachmentList"/>
+  <Boolean name="filterLoginCredentials">false</Boolean>
+  <value name="outboundCallbackServiceName"></value>
+</Values>
